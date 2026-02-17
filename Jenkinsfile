@@ -18,7 +18,7 @@ pipeline {
   }
 }
 post {
-  success { echo 'SUCCESS'}
-  failure{ echp 'FAILURE'}
+    success { echo 'SUCCESS ' }
+    failure { echo 'FAILURE ' }
   }
 }
